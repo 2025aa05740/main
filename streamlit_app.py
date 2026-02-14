@@ -1,7 +1,7 @@
 #a. Dataset upload option (CSV) [As streamlit free tier has limited capacity, upload only test data]
 
-import tkinter as tk
-from tkinter import filedialog
+#import tkinter as tk
+#from tkinter import filedialog
 import subprocess
 
 # Create the main window
@@ -78,3 +78,4 @@ result = subprocess.run(["python", selected_file], capture_output=True, text=Tru
 print("Output:", result.stdout)
 if result.stderr:
     print("Error:", result.stderr)
+
